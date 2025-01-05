@@ -17,3 +17,65 @@ HarmonyAI is an AI-powered Mental Health Chatbot designed to support and guide i
 ```bash
 git clone https://github.com/Chaitanya-Kamble19/HarmonyAI.git
 cd HarmonyAI
+```
+
+### Install the Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the chatbot in one of the two modes:
+
+### Console Mode
+
+```bash
+python chatbot.py
+```
+
+### GUI Mode
+
+```bash
+python gui_chatbot.py
+```
+
+## How to Use
+
+- Start a conversation by typing a question or sharing how you feel.
+- If the bot doesn't know the answer, it will ask for user feedback to learn new responses.
+- To exit, type `quit` in console mode or close the GUI window.
+
+## Sentiment Analysis
+
+The chatbot utilizes TextBlob to analyze the sentiment of user inputs. It classifies input into positive, negative, or neutral sentiment, allowing the bot to respond empathetically and adapt based on the user's mood.
+
+## Knowledge Base
+
+The chatbot’s knowledge base is stored in `knowledge_base.json`. Below is an example structure of the knowledge base:
+
+```json
+{
+  "questions": [
+    {
+      "question": "What is mental health?",
+      "answer": "Mental health refers to emotional, psychological, and social well-being..."
+    },
+    {
+      "question": "How do I manage stress?",
+      "answer": "Take deep breaths, exercise, and talk to someone about your feelings..."
+    }
+  ]
+}
+```
+
+## Future Improvements
+
+- Integrate advanced NLP models such as OpenAI's GPT for more dynamic and intelligent conversations.
+- Add a web-based interface to make the chatbot accessible via the browser.
+- Enable multilingual capabilities to serve a global audience.
+
+## Contributing
+
+Feel free to fork this repository, add new features, or submit issues/pull requests. All feedback is welcome!
