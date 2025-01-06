@@ -60,7 +60,7 @@ chatbot-modular/
 ├── main.py                # Main script for running the chatbot
 ├── knowledge_base.json    # JSON file for storing questions and answers
 ├── requirements.txt       # List of required dependencies
-└── README.md              # Project documentation
+└── Readme.md              # Project documentation
 ```
 
 ## Dependencies
