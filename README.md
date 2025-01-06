@@ -47,34 +47,7 @@ python gui_chatbot.py
 - If the bot doesn't know the answer, it will ask for user feedback to learn new responses.
 - To exit, type `quit` in console mode or close the GUI window.
 
-## Sentiment Analysis
 
-The chatbot utilizes TextBlob to analyze the sentiment of user inputs. It classifies input into positive, negative, or neutral sentiment, allowing the bot to respond empathetically and adapt based on the user's mood.
-
-## Knowledge Base
-
-The chatbot’s knowledge base is stored in `knowledge_base.json`. Below is an example structure of the knowledge base:
-
-```json
-{
-  "questions": [
-    {
-      "question": "What is mental health?",
-      "answer": "Mental health refers to emotional, psychological, and social well-being..."
-    },
-    {
-      "question": "How do I manage stress?",
-      "answer": "Take deep breaths, exercise, and talk to someone about your feelings..."
-    }
-  ]
-}
-```
-
-## Future Improvements
-
-- Integrate advanced NLP models such as OpenAI's GPT for more dynamic and intelligent conversations.
-- Add a web-based interface to make the chatbot accessible via the browser.
-- Enable multilingual capabilities to serve a global audience.
 
 ## Contributing
 
