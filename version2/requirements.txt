@@ -1,0 +1,6 @@
+textblob
+spacy
+tk
+tkinter
+diflib
+json
