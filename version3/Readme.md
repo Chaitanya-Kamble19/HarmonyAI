@@ -20,7 +20,8 @@ Version 3 of HarmonyAI introduces significant improvements in tokenization and t
   - Include an enhanced chat display for smoother user interactions.
 
 #### Screenshot of the New GUI:
-![HarmonyAI GUI Version 3](https://drive.google.com/file/d/1sV2L2a9ufEcQZqXMEUj140-qzo2koMa-/view?usp=sharing)
+![HarmonyAI GUI Version 3](https://drive.google.com/uc?id=1sV2L2a9ufEcQZqXMEUj140-qzo2koMa-
+)
 
 ---
 
