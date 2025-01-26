@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: harmonyai-web
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Web-Version/app.py
