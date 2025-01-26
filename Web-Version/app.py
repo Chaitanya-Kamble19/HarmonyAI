@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from textblob import TextBlob
 import spacy
 import json
+import os
 
 # Initialize the Flask app
 app = Flask(__name__)
@@ -81,4 +82,7 @@ def chat():
     return jsonify({"response": response})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Use environment variables for configuration
+    port = int(os.environ.get("PORT", 5000))
+    debug_mode = os.environ.get("DEBUG", "false").lower() == "true"
+    app.run(host='0.0.0.0', port=port, debug=debug_mode)
