@@ -1,6 +1,7 @@
-# HarmonyAI - Mental Health Chatbot with Sentiment Analysis
+This is developmenta; repository of final version https://github.com/Chaitanya-Kk/Harmony_Bot
+# HarmonyBot - Mental Health Chatbot with Sentiment Analysis
 
-HarmonyAI is an AI-powered Mental Health Chatbot designed to support and guide individuals seeking emotional and psychological well-being. The bot engages in meaningful conversations, performs sentiment analysis on user inputs, and learns from user interactions to improve its responses over time.
+HarmonyBot is an NLP-powered Mental Health Chatbot designed to support and guide individuals seeking emotional and psychological well-being. The bot engages in meaningful conversations, performs sentiment analysis on user inputs, and learns from user interactions to improve its responses over time.
 
 ## Features
 
